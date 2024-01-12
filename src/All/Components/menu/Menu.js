@@ -1,8 +1,17 @@
 import React from 'react'
 import './style.css'
+import { Link } from 'react-router-dom';
 import { IoMdClose } from "react-icons/io";
 import Logo from './techjourneyer_72218_a_minimalistic_logo_SummitByte__ad_hoc_colo_de4dd38a-c598-49d1-a655-a24948db3565-removebg-removebg-preview (1).png'
-const Menu = ({fun}) => {
+import { useNavigate } from 'react-router-dom';
+const Menu = (props) => {
+const navigate=useNavigate()
+   const shift=()=>{
+    props.fun(false)
+navigate('/')
+
+   }  
+  
   return (
 
 <div className='animate w-[100vw] h-[100vh]'>
@@ -20,7 +29,7 @@ const Menu = ({fun}) => {
 
 
         <div className='h-full flex justify-center items-center w-[10vh] ' style={{ marginRight: "5.75rem" }}>
-          <IoMdClose style={{ color: "white", fontSize: "40px" }}  onClick={()=>fun(false)}  />
+          <IoMdClose style={{ color: "white", fontSize: "40px" }}  onClick={shift}  />
         </div>
 
       </div>
@@ -34,17 +43,17 @@ const Menu = ({fun}) => {
           <ul className='flex flex-col justify-end items-end'>
             <li className='w-[20vw] h-full flex links'>
               <a href="#" className='link-num'>01</a>
-              <a href="#" className='link-txt' id='title-txt' >Home</a>
+              <Link to="/" className='link-txt' id='title-txt'  onClick={()=>props.fun(false)}  >Home</Link>
             </li>
 
             <li className='w-[20vw] h-full flex links'>
               <a href="#" className='link-num'>02</a>
-              <a href="#" className='link-txt' id='title-txt' >Home</a>
+              <Link to="/about" className='link-txt' id='title-txt' onClick={()=>props.fun(false)} >About</Link>
             </li>
 
             <li className='w-[20vw] h-full flex links'>
               <a href="#" className='link-num'>02</a>
-              <a href="#" className='link-txt' id='title-txt' >Home</a>
+              <Link to='/whatwe' className='link-txt' id='title-txt' onClick={()=>props.fun(false)} >Services</Link>
             </li>
 
 

@@ -5,10 +5,13 @@ import Home from '../Home/Home'
 import Head from '../../Components/Header/Head/Head'
 import Menu from '../../Components/menu/Menu'
 import About from '../About/About'
+import WhatWe from '../WhatWE/WhatWe'
 // import Menu from '../../Components/menu/Menu'
 // import { useNavigate } from 'react-router-dom'
 
 const MainRoutes = () => {
+
+  // const [Menuu, setMenu] = useState(false);
   const [hiddenMenuu, setHiddenMenu] = useState(false);
   console.log(hiddenMenuu)
 
@@ -20,7 +23,7 @@ const MainRoutes = () => {
       <BrowserRouter>
         {
 
-          hiddenMenuu == false ? <Head functions={setHiddenMenu} /> : ""
+          hiddenMenuu == false ? <Head functions={setHiddenMenu} /> : null
         }
 
         {/* <Head /> */}
@@ -28,12 +31,17 @@ const MainRoutes = () => {
 
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
-          <Route path='/hiddenmenu' element={<Menu fun={setHiddenMenu} />} />
+          <Route path='/hiddenmenu' element={<Menu fun={setHiddenMenu} stat={hiddenMenuu} />} />/
+          <Route path='/whatwe' element={<WhatWe />} />
+
 
 
 
         </Routes>
-        <Foot />
+        {
+
+hiddenMenuu== false?<Foot  />:null
+        } 
 
 
       </BrowserRouter>

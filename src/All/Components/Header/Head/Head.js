@@ -3,43 +3,43 @@ import Logo from './techjourneyer_72218_a_minimalistic_logo_SummitByte__ad_hoc_c
 import { CiMenuBurger } from "react-icons/ci";
 import Menu from "../../menu/Menu";
 import { useNavigate } from "react-router-dom";
-const Head = ({functions}) => {
+const Head = ({ functions }) => {
 
 
 
 
-  const Hidden=()=>{
-    const navigate=useNavigate()
+  const navigate = useNavigate()
+  const Hidden = () => {
     functions(true)
-    navigate('/hiddenmenu')
+    navigate('./hiddenmenu')
   }
-  return(
+  return (
 
 
 
-<div className="fixed w-[100vw] h-[100vh]">
+    <div className="fixed w-[100vw] h-[100vh]">
 
 
 
-  
 
-    <div className=" w-[100vw ] border border-black h-[10vh] flex flex-row justify-between ">
 
-      <div className="head-logo h-[100%] flex w-[10vw] justify-end">
-        <img src={Logo} alt="" />
+      <div className=" w-[100vw ] border border-black h-[10vh] flex flex-row justify-between ">
 
-      </div>
+        <div className="head-logo h-[100%] flex w-[10vw] justify-end">
+          <img src={Logo} onClick={()=>navigate('/')} alt="" />
 
-      <div className=" meanu-btn w-[10vw] flex justify-center items-center  ">
-      <CiMenuBurger style={{width:"34px", height:"34px", color:"white"}} onClick={Hidden} />
+        </div>
+
+        <div className=" meanu-btn w-[10vw] flex justify-center items-center  ">
+          <CiMenuBurger style={{ width: "34px", height: "34px", color: "white" }} onClick={Hidden} />
+        </div>
+
       </div>
 
     </div>
 
-</div>
 
-
-    )
+  )
 };
 
 export default Head;
