@@ -1,0 +1,181 @@
+.menu {
+    background-image: url('./techjourneyer_72218_a_background_image_with_color_effects_of_re_f8105fbe-ca61-46d4-9645-b6b4164f157a\ 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+
+/* .link-num {
+    color: white;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    transform: translate(40px);
+}
+
+/* Animation */
+/* .link-num:hover {
+    animation-name: numAnimation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+
+@keyframes numAnimation {
+    from {
+        transform: translate(40px);
+    }
+    to {
+        transform: translate(0px);
+    }
+}
+
+.link-txt {
+    color: #4C4C4C;
+    font-family: Roboto;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    transform: translate(0px);
+}
+
+Animation
+.link-txt:hover {
+    animation: txtAnimation;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes txtAnimation {
+    from {
+        transform: translate(0px);
+    }
+    to {
+        transform: translate(40px);
+    }
+}  */
+
+.links {
+    width: 30vw;
+    height: 10vh;
+    position: relative;
+    /* Set position relative on the parent container */
+}
+
+.link-num {
+    color: white;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    transform: translate(40px);
+    transition: transform 1s ease-in-out;
+    /* Add transition for smooth movement */
+    z-index: 10;
+
+}
+
+.link-txt {
+    color: #4C4C4C;
+    font-family: Roboto;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* position: absolute; */
+    transform: translate(0);
+    transition: transform 1s ease-in-out;
+    z-index: 11;
+    background-color: black;
+
+
+
+    /* animation */
+    position: relative;
+    display: inline-block;
+    font-size: 2em;
+    /* color: royalblue; */
+    font-weight: 800;
+    text-decoration: underline;
+    overflow: hidden;
+
+}
+
+
+.link-txt::before {
+    position: relative;
+    content: attr("Home");
+    /* Prints the value of the attribute */
+    top: 0;
+    left: 0;
+    color: midnightblue;
+    text-decoration: underline;
+    overflow: hidden;
+    transition: width 275ms ease;
+    width: 0;
+    white-space: nowrap;
+
+}
+
+.link-txt:hover::before {
+    width: 100%;
+}
+
+.links:hover .link-num {
+    transform: translate(0px);
+}
+
+
+.links:hover .link-txt {
+    transform: translate(40px);
+}
+
+/* .link-num::before {
+    position: absolute;
+    content: attr("01");
+    color: midnightblue;
+    text-decoration: underline;
+    clip-path: polygon(0 0, 0 0, 0% 100%, 0 100%);
+    transition: clip-path 275ms ease;
+  }
+
+  .link-num:hover{
+   
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+      
+  } */
+
+
+
+
+.animate {
+    animation: animates;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+
+
+    @keyframes animates {
+
+        0%{
+            width: 0%;
+            height: 0%;
+        }
+        100%{
+            width: 100%;
+height: 100%;
+        }
+        
+    }
+}

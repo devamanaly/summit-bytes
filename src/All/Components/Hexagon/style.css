@@ -1,0 +1,15 @@
+.hexagon {
+   background-image: url('./Vector\ 13.png');
+   width: 200px;
+   height: 200px;
+  }
+  
+  .hexagon-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Set the text color as you like */
+    font-size: 16px; /* Set the font size as you like */
+  }
+  

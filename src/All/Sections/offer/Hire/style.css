@@ -1,0 +1,40 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+}
+
+.card-left{
+    position: relative;
+    left: 0px;
+    /* padding-right: 50px; */
+padding-left: 70px;
+}
+.card-right{
+    position: relative;
+    left: 50%;
+padding-left: 70px;
+    
+
+}
+
+.card-left::after{
+
+  content: '';
+position: absolute;
+top: 0;
+right: 0;
+height: 100%; 
+width: 2px; 
+/* padding-right: 40px; */
+background-color: #093F68;
+
+}
+.card-right::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%; /* Make the line span the full height of the div */
+    width: 2px;
+    background-color: #093F68;
+}

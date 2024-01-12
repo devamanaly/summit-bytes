@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.furthor{
+    background-image: url('./Section.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
