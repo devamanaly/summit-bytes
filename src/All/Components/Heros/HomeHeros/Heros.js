@@ -12,7 +12,7 @@ const Heros = () => {
 
         {/* Text Start */}
 
-        <p className="text-white text-popins text-[63px] font-semibold leading-normal w-[58vw]  text-center " > YOUR GATEWAY TO DIVERSE <br /> SERVICES & <br />
+        <p className="text-white w-[80%] text-popins xl:text-[56px] xlg:text-[63px] font-semibold leading-normal   text-center " > YOUR GATEWAY TO DIVERSE <br /> SERVICES & <br />
           UNPARALLELED SOLUTIONS</p>
         <p className="text-[24px] text-[#E0E0E0] font-neutron font-[400] w-[600px] text-center">Lörem ipsum nekängar didist nyvis rekaliga bokstavsdrog. Sesamma dir, mipydon: </p>
 
@@ -21,12 +21,12 @@ const Heros = () => {
         {/* buttons start*/}
         <div className="flex flex-row justify-center items-center mt-5">
           <div className=" flex justify-center items-center  border border-white px-7 py-3 bg-[#1E3C84] text-white text-center text-[18px] font-[400]">
-            <p className="text-[22px] font-[600]">Show Services</p>
+            <p className=" xl:text-[18px] xlg:text-[22px] font-[600]">Show Services</p>
 
           </div>
 
           <div className="flex justify-center items-center  px-7 py-3 text-white text-center text-[18px] font-[400]">
-            <p className="text-[22px] font-[600]">See More</p>
+            <p className="xl:text-[18px] xlg:text-[22px] font-[600]">See More</p>
 
           </div>
 

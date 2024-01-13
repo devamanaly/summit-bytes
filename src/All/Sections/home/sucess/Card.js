@@ -8,8 +8,8 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Card = () => {
   return (
-    <div className='flex flex-row gap-x-6' >
-    <div className='h-[480px] w-[350px] flex flex-col justify-start items-start border border-black bg-[#E1F2FF] gap-y-4'>
+    <div className='flex flex-row gap-x-6 flex-wrap justify-start' >
+    <div className='xl:h-[450px] xlg:h-[480px]  xlg:xlg:w-[20%] xl:w-[305px] flex flex-col justify-start items-start border border-black bg-[#E1F2FF] gap-y-4'>
       <div className='h-[285px] w-full border border-black'>
         <img src={Pic1} alt="no picture" className='w-full h-full' />
 
@@ -35,7 +35,7 @@ const Card = () => {
     {/* caard */}
 
 
-    <div className='h-[480px] w-[350px] flex flex-col justify-start items-start border border-black bg-[#E1F2FF] gap-y-4'>
+    <div className='h-[480px] xlg:w-[25%] xl:w-[305px] flex flex-col justify-start items-start border border-black bg-[#E1F2FF] gap-y-4'>
       <div className='h-[285px] w-full border border-black'>
         <img src={Pic1} alt="no picture" className='w-full h-full' />
 
@@ -60,7 +60,7 @@ const Card = () => {
 
     {/* Card */}
 
-    <div className='h-[480px] w-[350px] flex flex-col justify-start items-start border border-black bg-[#E1F2FF] gap-y-4'>
+    <div className='h-[480px] xlg:w-[25%] xl:w-[305px] flex flex-col justify-start items-start border border-black bg-[#E1F2FF] gap-y-4'>
       <div className='h-[285px] w-full border border-black'>
         <img src={Pic1} alt="no picture" className='w-full h-full' />
 
@@ -85,7 +85,7 @@ const Card = () => {
 
     {/* card */}
 
-    <div className='h-[480px] w-[350px] flex flex-col justify-start items-start border border-black bg-[#E1F2FF] gap-y-4'>
+    <div className='h-[480px] xlg:w-[25%] xl:w-[305px] flex flex-col justify-start items-start border border-black bg-[#E1F2FF] gap-y-4'>
       <div className='h-[285px] w-full border border-black'>
         <img src={Pic1} alt="no picture" className='w-full h-full' />
 

@@ -13,10 +13,10 @@ const LeftCont = () => {
                     <div className='w-[25px] h-[25px] '>
                         <img src={Pic1} alt="" />
                     </div>
-                    <p className='uppercase text-[17px] font-bold'>e-commerce</p>
+                    <p className='uppercase xl:text-[14px] xlg:text-[17px] font-bold'>e-commerce</p>
                 </div>
 
-                <p className='uppercase text-[17px] font-bold'>Development</p>
+                <p className='uppercase xlg:text-[17px] xl:text-[12px] font-bold'>Development</p>
 
             </div>
             <div className='w-[220px] h-[125px] border border-black flex text-[#6E6E6E] flex-col justify-center items-center gap-y-[10px]' >
@@ -25,10 +25,10 @@ const LeftCont = () => {
                     <div className='w-[25px] h-[25px] '>
                         <img src={Pic2} alt="" />
                     </div>
-                    <p className='uppercase text-[17px] font-bold'>e-commerce</p>
+                    <p className='uppercase xlg:text-[17px] xl:text-[14px] font-bold'>e-commerce</p>
                 </div>
 
-                <p className='uppercase text-[17px] font-bold'>Development</p>
+                <p className='uppercase xlg:text-[17px] xl:text-[14px] font-bold'>Development</p>
 
             </div>
             <div className='w-[220px] h-[125px] border border-black flex text-[#6E6E6E] flex-col justify-center items-center gap-y-[10px]' >
@@ -37,10 +37,10 @@ const LeftCont = () => {
                     <div className='w-[25px] h-[25px] '>
                         <img src={Pic3} alt="" />
                     </div>
-                    <p className='uppercase text-[17px] font-bold'>e-commerce</p>
+                    <p className='uppercase xlg:text-[17px] xl:text-[14px] font-bold'>e-commerce</p>
                 </div>
 
-                <p className='uppercase text-[17px] font-bold'>Development</p>
+                <p className='uppercase xlg:text-[17px] xl:text-[14px] font-bold'>Development</p>
 
             </div>
             <div className='w-[220px] h-[125px] border border-black flex gap-y-[10px] text-[#6E6E6E] flex-col justify-center items-center' >
@@ -49,10 +49,10 @@ const LeftCont = () => {
                     <div className='w-[25px] h-[25px] '>
                         <img src={Pic4} alt="" />
                     </div>
-                    <p className='uppercase text-[17px] font-bold'>e-commerce</p>
+                    <p className='uppercase xlg:text-[17px] xl:text-[14px] font-bold'>e-commerce</p>
                 </div>
 
-                <p className='uppercase text-[17px] font-bold'>Development</p>
+                <p className='uppercase xlg:text-[17px] xl:text-[14px] font-bold'>Development</p>
 
             </div>
 

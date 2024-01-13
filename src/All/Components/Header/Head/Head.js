@@ -17,7 +17,7 @@ const Head = ({ functions }) => {
 
 
 
-    <div className="fixed w-[100vw] h-[100vh]">
+    <div className="fixed w-[100vw] ">
 
 
 
@@ -36,7 +36,7 @@ const Head = ({ functions }) => {
 
       </div>
 
-    </div>
+     </div>
 
 
   )
