@@ -34,6 +34,7 @@ import Slider from './All/Components/slider/Slider'
 const Check = () => {
   return (
   <>
+{/* <OurCard/> */}
   {/* <Head/> */}
   {/* <MobHeros/> */}
   {/* <Hexagon/> */}

@@ -5,7 +5,7 @@ const Offer = () => {
   return (
     <div className='w-full h-[100vh] bg-[#E1F2FF] flex justify-center items-center'>
 
-    <div className='w-[60%] min-h-[10vh] bg-[#E1F2FF] flex flex-row justify-center items-center flex-wrap '>
+    <div className='xl:w-[100%] xlg:w-[60%] min-h-[10vh] bg-[#E1F2FF] flex flex-row justify-center items-center flex-wrap '>
 
 <Hexagon text={"React"}/>
 

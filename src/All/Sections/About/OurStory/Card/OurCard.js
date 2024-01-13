@@ -16,8 +16,8 @@ const OurCard = () => {
             return (
 
 
-                <div className='w-[35%] min-h-[521px]  flex flex-col justify-between items-start gap-y-8'>
-                    <div className='w-[96%]'>
+                <div className='main min-h-[521px]  flex flex-col justify-between items-start gap-y-8 w-[613px]'>
+                    <div className='w-full'>
 
                         {
 
@@ -53,7 +53,7 @@ const OurCard = () => {
 
                         time == false ? <Skeleton height={36} width={110} style={{ width: "100%" }} /> : <div className='flex justify-center items-center bg-[#08759F] px-5 py-2 text-[#FFFFFF] text-[17px] font-normal cursor-pointer ' >
 
-                            <p  >Read More</p>
+                            <p  >Read Moresss</p>
 
 
                         </div>

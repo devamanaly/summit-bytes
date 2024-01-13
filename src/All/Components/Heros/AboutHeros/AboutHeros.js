@@ -12,7 +12,7 @@ const AboutHeros = () => {
 
         {/* Text Start */}
 
-        <p className="text-white text-popins text-[63px] font-semibold leading-normal w-[58vw]  text-center " > About Us</p>
+        <p className="text-white text-popins xl:text-[56px] xlg:text-[63px] font-semibold leading-normal w-[58vw]  text-center " > About Us</p>
         <p className="text-[24px] text-[#E0E0E0] font-neutron font-[400] w-[600px] text-center">Lörem ipsum nekängar didist nyvis rekaliga bokstavsdrog. Sesamma dir, mipydon: </p>
 
         {/* Text End */}
@@ -25,7 +25,7 @@ const AboutHeros = () => {
           </div>
 
           <div className="flex justify-center items-center  px-7 py-3 text-white text-center text-[18px] font-[400]">
-            <p className="text-[22px] font-[600]">See More</p>
+            <p className="xlg:text-[22px] xl:text-[18px] font-[600]">See More</p>
 
           </div>
 
@@ -41,7 +41,7 @@ const AboutHeros = () => {
 
 
            <div className="w-[95%] flex justify-start items-center" style={{backdropFilter:"blur(12px)", backgroundColor:"#FFFFFF1A"}}>
-            <p className="text-[36px] text-white pl-1 font-normal " >Know About Us</p>
+            <p className="xl:text-[36px] text-white pl-1 font-normal " >Know About Us</p>
            </div>
 
           </div>

@@ -3,6 +3,7 @@ import OfferHeros from '../../Components/Heros/offerHeros/OfferHeros'
 import SercieMain from '../../Sections/About/services/SercieMain'
 import Team from '../../Sections/About/team/Team'
 import Offer from '../../Sections/offer/Offer'
+import Hire from '../../Sections/offer/Hire/Hire'
 
 const WhatWe = () => {
   return (
@@ -10,6 +11,7 @@ const WhatWe = () => {
         <OfferHeros/>
         <Offer/>
         <SercieMain/>
+        {/* <Hire/> */}
 <Team/>
     </div>
   )

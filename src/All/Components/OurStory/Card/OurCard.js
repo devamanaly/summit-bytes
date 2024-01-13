@@ -16,7 +16,7 @@ const OurCard = () => {
             return (
 
 
-                <div className='w-[35%] min-h-[521px]  flex flex-col justify-between items-start gap-y-8'>
+                <div className='w-[613px] min-h-[521px]  flex flex-col justify-between items-start gap-y-8 '>
                     <div className='w-[96%]'>
 
                         {
@@ -44,14 +44,14 @@ const OurCard = () => {
                     <div className='w-[96%]'>
                         {
 
-                            time == false ? <Skeleton count={4} height={20} style={{ width: "100%" }} /> : <p className='text-[18px] w-[100%] ' >{ele.para}</p>
+                            time == false ? <Skeleton count={4} height={20} style={{ width: "100%" }} /> : <p className=' xlg:text-[22px] xl:text-[18px] w-[100%] ' >{ele.para}</p>
                         }
                     </div>
 
 
                     {
 
-                        time == false ? <Skeleton height={36} width={110} style={{ width: "100%" }} /> : <div className='flex justify-center items-center bg-[#08759F] px-5 py-2 text-[#FFFFFF] text-[17px] font-normal cursor-pointer ' >
+                        time == false ? <Skeleton height={36} width={110} style={{ width: "100%" }} /> : <div className='flex justify-center items-center bg-[#08759F] px-5 py-2 text-[#FFFFFF] text-[17px] font-normal cursor-pointer xl-w-[110px] xl:h-[36px] ' >
 
                             <p  >Read More</p>
 
