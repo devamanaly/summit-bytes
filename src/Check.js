@@ -29,6 +29,7 @@ import Hire from './All/Sections/offer/Hire/Hire'
 import Team from './All/Sections/offer/unLeasing/Team'
 // import Routes from './All/Pages/routes/MainRoutes'
 import MainRoutes from './All/Pages/routes/MainRoutes'
+import Slider from './All/Components/slider/Slider'
 
 const Check = () => {
   return (
@@ -52,6 +53,7 @@ const Check = () => {
   {/* <Hire/> */}
   {/* <Team/> */}
   <MainRoutes/>
+  {/* <Slider/> */}
   </>
   )
 }

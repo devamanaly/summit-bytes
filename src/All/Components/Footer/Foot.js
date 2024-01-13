@@ -91,7 +91,7 @@ const Foot = () => {
 
                 </div>
             </div>
-            <div className='w-[349px] h-[249px] bg-[#0A0077] rounded-[20px] flex flex-col justify-center gap-y-14 xl:hidden' style={{ paddingLeft: "24px" }}>
+            <div className='w-[349px] h-[249px] bg-[#0A0077] rounded-[20px] flex flex-col justify-center gap-y-14 xl:hidden xlg:flex' style={{ paddingLeft: "24px" }}>
                 <h4 className='xlg:text-[20px] xl:text-[18px] font-normal text-white '>Join Our Newsletter</h4>
 
 

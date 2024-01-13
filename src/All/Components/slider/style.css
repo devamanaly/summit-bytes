@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.slider{
+    overflow-x: scroll;
+    /* display: inline-block; */
+    /* display: inline; */
+    /* display: flex; */
+    /* flex-direction: row; */
+}
