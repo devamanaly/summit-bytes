@@ -4,10 +4,18 @@ import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
 import 'aos/dist/aos.css';
 
 import Check from "./Check.js";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Aos from "aos";
+import Bef from "./Loader/Bef";
 
 function App() {
+const [load ,setLoad]=useState(false);
+
+window.addEventListener('load', (event) => {
+  console.log('page is fully loaded');
+  setLoad('true')
+});
+
   useEffect(() => {
     Aos.init({
       // Global settings here
@@ -18,8 +26,10 @@ function App() {
     <>
     <SkeletonTheme baseColor="gray" highlightColor="#525252">
     <div className="App">
+{
 
-      <Check />
+ load?<Check />:<Bef/>
+}
      {/* </SkeletonTheme > */}
     </div>
     </SkeletonTheme>

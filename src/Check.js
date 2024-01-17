@@ -36,7 +36,8 @@ import ExampleComponent from './All/Components/Heros/Typewriter'
 import Texts from './All/Components/Heros/Texts'
 import Slider from './All/Sections/home/Slider/Slider'
 import SMain from './All/Sections/home/Slider/SMain'
-import Bef from './All/Bef'
+import Bef from './Loader/Bef'
+// import Bef from './Loader/Bef'
 
 const Check = () => {
   return (

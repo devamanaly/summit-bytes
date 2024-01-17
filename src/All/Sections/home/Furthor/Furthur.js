@@ -2,7 +2,7 @@ import React from 'react'
 import './style.css'
 const Furthur = () => {
   return (
-    <div className=' furthor w-full h-[508px] border border-black flex flex-row justify-around items-center'>
+    <div className=' furthor w-full h-[508px]  flex flex-row justify-around items-center'>
       <div className='min-w-[10vw] min-h-[8vh]'>
         <h2 className=' xlg:text-[45px] xl:text-[40px] text-[#093F68] font-bold w-[569px] '>Call us for further information.
           Summit Bytes customer
@@ -17,7 +17,7 @@ const Furthur = () => {
 
         </div>
 
-        <div className='xlg:w-[115px] xl:w-[106px] h-[45px] border border-black rounded-[30px] bg-[#093F68] flex justify-center items-center '>
+        <div className='xlg:w-[115px] xl:w-[106px] h-[45px]  rounded-[30px] bg-[#093F68] flex justify-center items-center '>
           <p className='text-[17px] text-white '>Contact Us</p>
 
         </div>

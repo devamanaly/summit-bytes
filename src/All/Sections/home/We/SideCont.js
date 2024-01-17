@@ -5,14 +5,14 @@ const SideCont = ({state}) => {
   const Arr=data.filter(e=>e.catogory==state)
   console.log(Arr)
   return (
-    <div className=' xl:w-[80%] xlg:w-[60%] h-[100%] border border-black flex flex-row justify-between items-start '>
+    <div className=' xl:w-[80%] xlg:w-[60%] h-[100%]  flex flex-row justify-between items-start '>
 
         {
           Arr.map((ele)=>{
             return(
 
             
-      <div className='min-w-[50%] h-[100%] border border-black flex flex-col justify-start items-start gap-y-6  '>
+      <div className='min-w-[50%] h-[100%]  flex flex-col justify-start items-start gap-y-6  '>
 
           
           <h2 className='text-[24px] text-[#282727] font-normal' >
@@ -30,7 +30,7 @@ const SideCont = ({state}) => {
       )
     })
         }
-      <div className='w-[265px] border border-black h-full'>
+      <div className='w-[265px] h-full'>
         <img src={Pic} alt="" />
         </div>  
     </div>

@@ -5,7 +5,7 @@ import Card from './Card';
 const Sucess = () => {
     return (
         <div className='min-h-[105vh] w-full bg-[#E1F2FF] py-14 flex justify-center items-center'>
-            <div className='w-[90%] border border-black h-full flex flex-col justify-start items-start gap-y-6'>
+            <div className='w-[90%] h-full flex flex-col justify-start items-start gap-y-6'>
 
 
                 <div className='min-h-[50px] flex flex-col justify-between items-start '>

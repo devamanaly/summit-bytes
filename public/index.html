@@ -30,7 +30,7 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root">
-      <div class='page-load'>
+      <!-- <div class='page-load'>
         <div class='bef-content'>
           <img src='./output-onlinepngtools (1).svg' alt="" style="width: 100px; height: 100px;" />
           <p>Summit Bytes</p>
@@ -38,7 +38,7 @@
         <div class="before-page">
           <span class="loader"></span>
         </div>
-      </div>
+      </div> -->
       
     </div>
     <!--
@@ -51,5 +51,11 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+  <script>
+    window.addEventListener('load', (event) => {
+  console.log('page is fully loaded');
+});
+  </script>
   </body>
+  
 </html>
