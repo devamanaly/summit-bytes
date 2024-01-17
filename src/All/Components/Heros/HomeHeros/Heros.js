@@ -1,14 +1,14 @@
 import React from "react";
 import './style.css'
-import HerosImg from './techjourneyer_72218_make_a_picture_of_a_deep_ai_code_and_a_attr_f5d1e153-8432-42ca-b389-86da2fc579ca 1.png'
+// import HerosImg from './techjourneyer_72218_make_a_picture_of_a_deep_ai_code_and_a_attr_f5d1e153-8432-42ca-b389-86da2fc579ca 1.png'
 import Typewriter from "../Typewriter";
 const Heros = () => {
-  const img = './techjourneyer_72218_make_a_picture_of_a_deep_ai_code_and_a_attr_f5d1e153-8432-42ca-b389-86da2fc579ca 1.png'
+  // const img = './techjourneyer_72218_make_a_picture_of_a_deep_ai_code_and_a_attr_f5d1e153-8432-42ca-b389-86da2fc579ca 1.png'
   return (
     <div>
       <div
         className=" heros-main w-[100vw]  h-[100vh]  flex flex-col justify-center items-center"
-        style={{ backgroundImage: `url(${HerosImg})` }}
+
       >
 
         {/* Text Start */}
