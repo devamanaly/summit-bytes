@@ -1,0 +1,18 @@
+/* Add your initial styles here */
+nav {
+    /* Initial styles go here */
+    /* background-color: aqua; */
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Add styles for the header when scrolled */
+  nav.scrolled {
+    background-color: white;
+    /* Add other styles for a scrolled header */
+    transition: background-color 0.3s ease;
+    /* height: 9vh; */
+
+  }
+
+  
+  

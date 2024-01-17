@@ -29,7 +29,14 @@ import Hire from './All/Sections/offer/Hire/Hire'
 import Team from './All/Sections/offer/unLeasing/Team'
 // import Routes from './All/Pages/routes/MainRoutes'
 import MainRoutes from './All/Pages/routes/MainRoutes'
-import Slider from './All/Components/slider/Slider'
+// import Slider from './All/Components/slider/Slider'
+import TimeLine from './All/Components/TimeLine/TimeLine'
+import Form from './All/Sections/form/Form'
+import ExampleComponent from './All/Components/Heros/Typewriter'
+import Texts from './All/Components/Heros/Texts'
+import Slider from './All/Sections/home/Slider/Slider'
+import SMain from './All/Sections/home/Slider/SMain'
+import Bef from './All/Bef'
 
 const Check = () => {
   return (
@@ -54,6 +61,13 @@ const Check = () => {
   {/* <Hire/> */}
   {/* <Team/> */}
   <MainRoutes/>
+  {/* <Bef/> */}
+  {/* <ExampleComponent/> */}
+  {/* <Texts/> */}
+  {/* <TimeLine/> */}
+{/* <Slider/> */}
+{/* <SMain/> */}
+  {/* <Form/> */}
   {/* <Slider/> */}
   </>
   )

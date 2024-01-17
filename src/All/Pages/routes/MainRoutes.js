@@ -6,6 +6,7 @@ import Head from '../../Components/Header/Head/Head'
 import Menu from '../../Components/menu/Menu'
 import About from '../About/About'
 import WhatWe from '../WhatWE/WhatWe'
+import Form from '../../Sections/form/Form'
 // import Menu from '../../Components/menu/Menu'
 // import { useNavigate } from 'react-router-dom'
 
@@ -24,6 +25,7 @@ const MainRoutes = () => {
         {
 
           hiddenMenuu == false ? <Head functions={setHiddenMenu} /> : null
+
         }
 
         {/* <Head /> */}
@@ -33,6 +35,7 @@ const MainRoutes = () => {
           <Route path='/about' element={<About />} />
           <Route path='/hiddenmenu' element={<Menu fun={setHiddenMenu} stat={hiddenMenuu} />} />/
           <Route path='/whatwe' element={<WhatWe />} />
+          <Route path='/contact' element={ <Form/> } />
 
 
 
@@ -40,8 +43,8 @@ const MainRoutes = () => {
         </Routes>
         {
 
-hiddenMenuu== false?<Foot  />:null
-        } 
+          hiddenMenuu == false ? <Foot /> : null
+        }
 
 
       </BrowserRouter>

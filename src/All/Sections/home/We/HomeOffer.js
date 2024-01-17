@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import LeftCont from './LeftCont'
 import SideCont from './SideCont'
 
 const HomeOffer = () => {
+
+  const [text ,setText]=useState("e-commerece")
+console.log(text)
+
   return (
     <div className='w-full min-h-[100vh] flex flex-col justify-center items-center gap-y-[50px]'>
       <div className='min-h-[10px] w-[50vw] flex flex-col justify-center items-center text-center gap-y-[24px]  '>
@@ -14,8 +18,8 @@ const HomeOffer = () => {
       </div>
 
       <div className='flex flex-row justify-center items-center gap-x-[24px] w-full h-[508px] '>
-        <LeftCont />
-        <SideCont />
+        <LeftCont func={setText} state={text}  />
+        <SideCont state={text} />
 
 
       </div>

@@ -80,7 +80,7 @@ Animation
     line-height: normal;
     position: absolute;
     transform: translate(40px);
-    transition: transform 1s ease-in-out;
+    transition: transform .5s ease-in-out;
     /* Add transition for smooth movement */
     z-index: 10;
 
@@ -88,6 +88,7 @@ Animation
 
 .link-txt {
     color: #4C4C4C;
+    height: max-content;
     font-family: Roboto;
     font-size: 44px;
     font-style: normal;
@@ -95,7 +96,7 @@ Animation
     line-height: normal;
     /* position: absolute; */
     transform: translate(0);
-    transition: transform 1s ease-in-out;
+    transition: transform .5s ease-in-out;
     z-index: 11;
     background-color: black;
 
@@ -158,24 +159,21 @@ Animation
 
 
 
+.animates {
 
-.animate {
-    animation: animates;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
-    animation-direction: alternate;
+    /* width: 100vw; */
+    /* height: 100vh; */
+    animation: slideIn .3s ease-in-out ;
+    /* animation: slideOf 1s ease-in-out ; */
+    /* animation: slidein 5s ease ; */
+}
 
+@keyframes slideIn {
+    0% {
+        transform: translateX(100%)
+    }
 
-    @keyframes animates {
-
-        0%{
-            width: 0%;
-            height: 0%;
-        }
-        100%{
-            width: 100%;
-height: 100%;
-        }
-        
+    100% {
+        transform: translateX(0%)
     }
 }
