@@ -1,7 +1,27 @@
-import React from 'react'
+import React, { useState } from 'react'
 import OfferHeros from '../../Components/Heros/offerHeros/OfferHeros'
 
 const Form = () => {
+
+const [data,setData]=useState({
+    name:"",
+    email:"",
+    number:"",
+    message:""
+});
+console.log(data)
+
+const appnd=(ele)=>{
+
+    let names=ele.target.name;
+     let val=ele.target.value;
+
+    setData({...data,[names]:val})
+
+    
+
+}
+
   return (
     <>
 <div className='flex flex-col '>
@@ -14,16 +34,16 @@ const Form = () => {
                   <h2 className='xlg:text-[28px] xl:text-[24px]'>Do you have any question?</h2>
 
                 <div className='h-[40px] w-full  first:'>
-                    <input type="text" placeholder='Your Name'   className='  text-[#383838] focus-visible:border-none focus-visible:outline-none rounded-[12px] xlg:text[20px] xl:text[16px] bg-[#E1F2FF]  px-5 h-full w-full ' />
+                    <input type="text" placeholder='Your Name' name='name' value={data.name} onChange={appnd}  className='  text-[#383838] focus-visible:border-none focus-visible:outline-none rounded-[12px] xlg:text[20px] xl:text[16px] bg-[#E1F2FF]  px-5 h-full w-full ' />
                 </div>
                 <div className='h-[40px] w-full  first:'>
-                    <input type="email" placeholder='Your Emai l'  className  =' text-[#383838] focus-visible:border-none focus-visible:outline-none rounded-[12px] xlg:text[20px] xl:text[16px] bg-[#E1F2FF] px-5 h-full w-full ' />
+                    <input type="email" placeholder='Your Email' name='email' value={data.email} onChange={appnd} className  =' text-[#383838] focus-visible:border-none focus-visible:outline-none rounded-[12px] xlg:text[20px] xl:text[16px] bg-[#E1F2FF] px-5 h-full w-full ' />
                 </div>
                 <div className='h-[40px] w-full  first:'>
-                    <input type="text" placeholder='Your Name'   className='  text-[#383838] focus-visible:border-none focus-visible:outline-none rounded-[12px] xlg:text[20px] xl:text[16px] bg-[#E1F2FF]  px-5 h-full w-full ' />
+                    <input type="number" placeholder='Your number' name='number' value={data.number} onChange={appnd} className='  text-[#383838] focus-visible:border-none focus-visible:outline-none rounded-[12px] xlg:text[20px] xl:text[16px] bg-[#E1F2FF]  px-5 h-full w-full ' />
                 </div>
                 <div className='h-[40px] w-full  first:'>
-                    <input type="text" placeholder='Your Name'   className='  text-[#383838] focus-visible:border-none focus-visible:outline-none rounded-[12px] xlg:text[20px] xl:text[16px] bg-[#E1F2FF]  px-5 h-full w-full  h-' />
+                    <input type="text" placeholder='message' name='message' value={data.message} onChange={appnd}  className='  text-[#383838] focus-visible:border-none focus-visible:outline-none rounded-[12px] xlg:text[20px] xl:text[16px] bg-[#E1F2FF]  px-5 h-full w-full  h-' />
                 </div>
 
                 <div className='xl:w-[110px] xlg:w-[130px] h-[38px] flex justify-center items-center bg-[#08759F] rounded-[24px]'>

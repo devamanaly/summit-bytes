@@ -62,6 +62,7 @@ const Check = () => {
   {/* <Hire/> */}
   {/* <Team/> */}
   <MainRoutes/>
+  {/* <Team/> */}
   {/* <Bef/> */}
   {/* <ExampleComponent/> */}
   {/* <Texts/> */}

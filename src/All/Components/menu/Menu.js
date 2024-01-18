@@ -20,7 +20,7 @@ const Menu = (props) => {
         {/* meanu navbar */}
 
 
-        <div className='w-[100vw] h-[10vh] flex flex-row justify-between items-center border border-white '>
+        <div className='w-[100vw] h-[10vh] flex flex-row justify-between items-center  '>
           <div className='w-[10vh] h-full  ' style={{ marginLeft: "7.75rem" }}>
             <img src={Logo} alt="" className='w-full h-full' />
 
@@ -36,30 +36,33 @@ const Menu = (props) => {
 
 
 
-        <div className='border border-white w-[730px] h-[540px] flex flex-row justify-between'>
+        <div className=' w-[730px] h-[540px] flex flex-row justify-between'>
 
 
-          <div className='w-full h-full border border-white'>
+          <div className='w-full h-full '>
             <ul className='flex flex-col justify-end items-end'>
               <li className='w-[20vw] h-full flex links'>
                 <a href="#" className='link-num'>01</a>
-                <Link to="/" className='link-txt' id='title-txt' onClick={() => props.fun(false)}  >Home</Link>
+                <div className='outPop'>
+
+                <Link to="/" className='link-txt popUpWord' id='title-txt1' onClick={() => props.fun(false)}  >Home</Link>
+                </div>
               </li>
 
               <li className='w-[20vw] h-full flex links'>
                 <a href="#" className='link-num'>02</a>
-                <Link to="/about" className='link-txt' id='title-txt' onClick={() => props.fun(false)} >About</Link>
+                <Link to="/about" className='link-txt' id='title-txt2' onClick={() => props.fun(false)} >About</Link>
               </li>
 
               <li className='w-[20vw] h-full flex links'>
                 <a href="#" className='link-num'>02</a>
-                <Link to='/whatwe' className='link-txt' id='title-txt' onClick={() => props.fun(false)} >Services</Link>
+                <Link to='/whatwe' className='link-txt' id='title-txt3' onClick={() => props.fun(false)} >Services</Link>
               </li>
 
 
               <li className='w-[20vw] h-full flex links'>
                 <a href="#" className='link-num'>02</a>
-                <Link to='/contact' className='link-txt' id='title-txt' onClick={() => props.fun(false)} >Contact</Link>
+                <Link to='/contact' className='link-txt' id='title-txt4' onClick={() => props.fun(false)} >Contact</Link>
               </li>
             </ul>
 
