@@ -13,7 +13,7 @@ const LeftCont = (props) => {
 
     return (
         <div className=' w-[220px] flex flex-col justify-center items-center  min-h-[500px] '>
-            <div className={`w-[220px] h-[125px] cursor-pointer border-b border-black flex text-[#6E6E6E] flex-col justify-center items-center gap-y-[10px]  `} style={{
+            <div className={`w-[220px] h-[125px] hover:text-[#fff] hover:bg-[#093F68]  cursor-pointer border-b border-black flex text-[#6E6E6E] flex-col justify-center items-center gap-y-[10px]  `} style={{
                 
                 
                 backgroundColor: state === 'e-commerece' ? '#093F68' : '',
@@ -35,7 +35,7 @@ const LeftCont = (props) => {
                 <p className='uppercase xlg:text-[17px] xl:text-[12px] font-bold'>Development</p>
 
             </div>
-            <div className='w-[220px] h-[125px] border-b border-black flex text-[#6E6E6E] flex-col justify-center items-center gap-y-[10px] cursor-pointer' style={{
+            <div className='w-[220px] h-[125px] border-b hover:text-[#fff] hover:bg-[#093F68] border-black flex text-[#6E6E6E] flex-col justify-center items-center gap-y-[10px] cursor-pointer' style={{
                 
                 
                 backgroundColor: state === 'web-app' ? '#093F68' : '',
@@ -57,7 +57,7 @@ const LeftCont = (props) => {
                 <p className='uppercase xlg:text-[17px] xl:text-[14px] font-bold'>Development</p>
 
             </div>
-            <div className='w-[220px] h-[125px] border-b border-black flex text-[#6E6E6E] flex-col justify-center items-center gap-y-[10px] cursor-pointer' onClick={()=>func("product")}  style={{
+            <div className='w-[220px] h-[125px] hover:text-[#fff] hover:bg-[#093F68] border-b border-black flex text-[#6E6E6E] flex-col justify-center items-center gap-y-[10px] cursor-pointer' onClick={()=>func("product")}  style={{
                 
                 
                 backgroundColor: state === 'product' ? '#093F68' : '',
@@ -79,7 +79,7 @@ const LeftCont = (props) => {
                 <p className='uppercase xlg:text-[17px] xl:text-[14px] font-bold'>Development</p>
 
             </div>
-            <div className='w-[220px] h-[125px] border-b border-black flex gap-y-[10px] text-[#6E6E6E] flex-col justify-center items-center cursor-pointer' onClick={()=>func("artifical")}   style={{
+            <div className='w-[220px] h-[125px] border-b hover:text-[#fff] hover:bg-[#093F68] border-black flex gap-y-[10px] text-[#6E6E6E] flex-col justify-center items-center cursor-pointer' onClick={()=>func("artifical")}   style={{
                 
                 
                 backgroundColor: state === 'artifical' ? '#093F68' : '',

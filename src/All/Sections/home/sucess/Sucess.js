@@ -26,7 +26,7 @@ const Sucess = () => {
 
 
                 <div >
-                    <Card/>
+                    <Card />
                 </div>
 
 

@@ -2,6 +2,7 @@ import React from 'react'
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 
 const Foot = () => {
@@ -51,10 +52,14 @@ const Foot = () => {
                     <h2 className='text-[24px] text-white font-bold '>Company</h2>
 
                     <div className='flex flex-col gap-y-5' >
-                        <a href="#" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5]'>About</a>
-                        <a href="#" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5]'>Services</a>
-                        <a href="#" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5]'>Features</a>
-                        <a href="#" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5]'>Blogs</a>
+                        <Link to="/about" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5] hover:text-white  
+                        transition-all duration-500'>About</Link>
+                        <Link to="/whatwe" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5] hover:text-white  
+                        transition-all duration-500'>Services</Link>
+                        <Link to="/contact" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5] hover:text-white  
+                        transition-all duration-500'>Features</Link>
+                        <a href="#" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5] hover:text-white  
+                        transition-all duration-500'>Blogs</a>
 
                     </div>
 
@@ -66,10 +71,10 @@ const Foot = () => {
                     <h2 className='text-[24px] text-white font-bold '>Legal</h2>
 
                     <div className='flex flex-col gap-y-5' >
-                        <a href="#" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5]'>Privacy policy</a>
-                        <a href="#" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5]'>Terms & Services</a>
-                        <a href="#" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5]'>Term of use</a>
-                        <a href="#" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5]'>Refund policy</a>
+                        <a href="#" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5] hover:text-white transition-all duration-500'>Privacy policy</a>
+                        <a href="#" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5] hover:text-white transition-all duration-500'>Terms & Services</a>
+                        <a href="#" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5] hover:text-white transition-all duration-500'>Term of use</a>
+                        <a href="#" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5] hover:text-white transition-all duration-500'>Refund policy</a>
 
                     </div>
 
@@ -80,10 +85,10 @@ const Foot = () => {
                     <h2 className='text-[24px] text-white font-bold '>Quick links</h2>
 
                     <div className='flex flex-col gap-y-5' >
-                        <a href="#" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5]'>Downloads</a>
-                        <a href="#" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5]'>Forum</a>
-                        <a href="#" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5]'>Techlabz Keybox</a>
-                        <a href="#" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5]'>Blogs</a>
+                        <a href="#" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5] hover:text-white transition-all duration-500'>Downloads</a>
+                        <a href="#" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5] hover:text-white transition-all duration-500'>Forum</a>
+                        <a href="#" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5] hover:text-white transition-all duration-500'>Techlabz Keybox</a>
+                        <a href="#" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5] hover:text-white transition-all duration-500'>Blogs</a>
 
                     </div>
 
@@ -97,7 +102,7 @@ const Foot = () => {
 
                 <div className=' flex flex-col justify-start items-start gap-y-3 '>
                     <div className='w-[80%] h-[36px] border border-white flex flex-row justify-start items-start'>
-                        <input type="text" style={{ height: "100%", width: "183px",paddingLeft:"14px", color:"#494949"  }} className='foucs-visible:border-none' placeholder='Your Email Address' />
+                        <input type="text" style={{ height: "100%", width: "183px",paddingLeft:"14px", color:"#494949",    }} className='foucs-visible:border-none focus-visible:outline-none' placeholder='Your Email Address' />
                         <button className='w-[111px] h-full bg-[rgba(0, 70, 255, 0.30)] text-white bg-[#009dff] '>
                             Subscribe
                             {/* background: ; */}

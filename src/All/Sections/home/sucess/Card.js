@@ -8,7 +8,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Card = () => {
   return (
-    <div className='flex flex-row gap-x-6 flex-wrap justify-start' >
+    <div className='flex flex-row xlg:gap-x-[1%] xl:flex-wrap   justify-start'style={{}} >
     <div className='xl:h-[450px] xlg:h-[480px]  xlg:xlg:w-[23.5%] xl:w-[305px] flex flex-col justify-start items-start  bg-[#E1F2FF] gap-y-4'>
       <div className='h-[285px] w-full '>
         <img src={Pic1} alt="no picture" className='w-full h-full' />

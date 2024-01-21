@@ -34,9 +34,12 @@ import TimeLine from './All/Components/TimeLine/TimeLine'
 import Form from './All/Sections/form/Form'
 import ExampleComponent from './All/Components/Heros/Typewriter'
 import Texts from './All/Components/Heros/Texts'
-import Slider from './All/Sections/home/Slider/Slider'
+// import Slider from './All/Sections/home/Slider/Slider'
 import SMain from './All/Sections/home/Slider/SMain'
 import Bef from './Loader/Bef'
+import Slider from './All/Sections/home/sucess/Slide'
+import CustomCarousel from './All/Sections/home/sucess/Slide'
+import Slide from './All/Sections/home/sucess/Slide'
 // import Bef from './Loader/Bef'
 
 const Check = () => {
@@ -62,6 +65,8 @@ const Check = () => {
   {/* <Hire/> */}
   {/* <Team/> */}
   <MainRoutes/>
+  {/* <Slide/> */}
+  {/* <CustomCarousel/> */}
   {/* <Team/> */}
   {/* <Bef/> */}
   {/* <ExampleComponent/> */}

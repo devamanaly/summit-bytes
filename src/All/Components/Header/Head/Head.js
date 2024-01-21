@@ -30,11 +30,14 @@ const Head = ({ functions }) => {
 
 
 
+  
+
   const navigate = useNavigate()
   const Hidden = () => {
     functions(true)
     navigate('./hiddenmenu')
   }
+
   return (
 
 

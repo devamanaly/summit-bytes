@@ -30,7 +30,7 @@ const appnd=(ele)=>{
 
     <div className='h-[80vh] w-full flex justify-center items-center'>
         <div className='w-[50%] min-h-[10vh] '>
-            <form className='flex flex-col justify-start items-start gap-y-6'>
+            <form className='flex flex-col justify-start items-start gap-y-6' >
                   <h2 className='xlg:text-[28px] xl:text-[24px]'>Do you have any question?</h2>
 
                 <div className='h-[40px] w-full  first:'>
@@ -40,7 +40,7 @@ const appnd=(ele)=>{
                     <input type="email" placeholder='Your Email' name='email' value={data.email} onChange={appnd} className  =' text-[#383838] focus-visible:border-none focus-visible:outline-none rounded-[12px] xlg:text[20px] xl:text[16px] bg-[#E1F2FF] px-5 h-full w-full ' />
                 </div>
                 <div className='h-[40px] w-full  first:'>
-                    <input type="number" placeholder='Your number' name='number' value={data.number} onChange={appnd} className='  text-[#383838] focus-visible:border-none focus-visible:outline-none rounded-[12px] xlg:text[20px] xl:text[16px] bg-[#E1F2FF]  px-5 h-full w-full ' />
+                    <input type="number" placeholder='Your number' name='number' value={data.number} onChange={appnd} className='   text-[#383838] focus-visible:border-none focus-visible:outline-none rounded-[12px] xlg:text[20px] xl:text[16px] bg-[#E1F2FF]  px-5 h-full w-full appearance-none' />
                 </div>
                 <div className='h-[40px] w-full  first:'>
                     <input type="text" placeholder='message' name='message' value={data.message} onChange={appnd}  className='  text-[#383838] focus-visible:border-none focus-visible:outline-none rounded-[12px] xlg:text[20px] xl:text[16px] bg-[#E1F2FF]  px-5 h-full w-full  h-' />

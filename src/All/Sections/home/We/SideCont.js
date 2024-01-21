@@ -5,21 +5,21 @@ const SideCont = ({state}) => {
   const Arr=data.filter(e=>e.catogory==state)
   console.log(Arr)
   return (
-    <div className=' xl:w-[80%] xlg:w-[60%] h-[100%]  flex flex-row justify-between items-start '>
+    <div className=' xl:w-[65%] xlg:w-[60%] h-[100%]  flex flex-row justify-between items-start gap-x-7 '>
 
         {
           Arr.map((ele)=>{
             return(
 
             
-      <div className='min-w-[50%] h-[100%]  flex flex-col justify-start items-start gap-y-6  '>
+      <div className='w-[50%] h-[100%]  flex flex-col justify-start items-start gap-y-6  '>
 
           
           <h2 className='text-[24px] text-[#282727] font-normal' >
         {ele.head}
         </h2>
 
-        <p className='xlg:text-[22px] xl:text-[18px] text-[#383838] w-[460px] leading-8 '>
+        <p className='xlg:text-[22px] xl:text-[18px] text-[#383838] xlg:w-[460px] xl:w-[420px] leading-8 '>
           {ele.detail}
         </p>
 
@@ -30,7 +30,7 @@ const SideCont = ({state}) => {
       )
     })
         }
-      <div className='w-[265px] h-full'>
+      <div className='xlg:w-[265px] xlg:h-full xl:w-[219px] xl:h-auto'>
         <img src={Pic} alt="" />
         </div>  
     </div>

@@ -1,13 +1,13 @@
 import React from "react";
 import './style.css'
-import HerosImg from './techjourneyer_72218_make_a_picture_of_a_deep_ai_code_and_a_attr_f5d1e153-8432-42ca-b389-86da2fc579ca 1.png'
+// import HerosImg from './techjourneyer_72218_make_a_picture_of_a_deep_ai_code_and_a_attr_f5d1e153-8432-42ca-b389-86da2fc579ca 1.png'
 const AboutHeros = () => {
-  const img = './techjourneyer_72218_make_a_picture_of_a_deep_ai_code_and_a_attr_f5d1e153-8432-42ca-b389-86da2fc579ca 1.png'
+  // const img = './techjourneyer_72218_make_a_picture_of_a_deep_ai_code_and_a_attr_f5d1e153-8432-42ca-b389-86da2fc579ca 1.png'
   return (
     <div>
       <div
         className=" heros-main w-[100vw] border border-black h-[85vh]  flex flex-col justify-center items-center"
-        style={{ backgroundImage: `url(${HerosImg})` }}
+    
       >
 
         {/* Text Start */}
@@ -18,14 +18,14 @@ const AboutHeros = () => {
         {/* Text End */}
 
         {/* buttons start*/}
-        <div data-aos="fade-up" className="flex flex-row justify-center items-center mt-5">
-          <div className=" flex justify-center items-center  px-7 py-3 bg-[#1E3C84] text-white text-center text-[18px] font-[400]">
+        <div data-aos="fade-up" className="flex flex-row justify-center items-center mt-5 gap-x-5">
+          <div className=" flex justify-center items-center  px-7 py-3 bg-[#1E3C84] cursor-pointer text-white text-center text-[18px] font-[400] hover:text-black hover:bg-white transition-all duration-500 ease">
             <p className="text-[22px] font-[600]">Show Services</p>
 
           </div>
 
-          <div className="flex justify-center items-center  px-7 py-3 text-white text-center text-[18px] font-[400]">
-            <p className="xlg:text-[22px] xl:text-[18px] font-[600]">See More</p>
+          <div className="flex justify-center items-center  px-7 py-3 text-white text-center cursor-pointer text-[18px] font-[400] hover:bg-white hover:text-black transition-all duration-500 ease">
+            <p className="xlg:text-[22px] xl:text-[18px] font-[600] ">See More</p>
 
           </div>
 

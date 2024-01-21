@@ -16,7 +16,7 @@ const OurCard = () => {
             return (
 
 
-                <div className='w-[613px] min-h-[521px]  flex flex-col justify-between items-start gap-y-8 '>
+                <div className='xlg:w-[613px] xl:w-[473px] min-h-[521px]  flex flex-col justify-between items-start gap-y-8 '>
                     <div className='w-[96%]'>
 
                         {

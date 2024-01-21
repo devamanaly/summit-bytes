@@ -7,18 +7,18 @@ const Combine = () => {
             {/* top start */}
 
             <div className='flex flex-col text-center justify-center items-center gap-y-[22px]'>
-                <p className='text-[15px]  '>For Our Customer</p>
+                {/* <p className='text-[15px]  '>For Our Customer</p> */}
                 <h2 className='text-[#282727] xl:text-[42px] xlg:text-[48px] font-bold tracking-[2px]'>We combine design and technology to solve <br/> your biggest challenges</h2>
                 <p className=' xl:text-[22px] xlg:text-[25px] font-normal '>Lörem ipsum nekängar didist nyvis rekaliga bokstavsdrog. Sesamma dir, <br/> mipydon: </p>
 
-                <div className=' xl:w-[214px] xlg:w-[225px] h-[48px] text-[25px] bg-[#08759F] flex justify-center items-center gap-x-2 text-white uppercase  hover:text-black transition-all duration-500 ease cursor-pointer'>
+                {/* <div className=' xl:w-[214px] xlg:w-[225px] h-[48px] text-[25px] bg-[#08759F] flex justify-center items-center gap-x-2 text-white uppercase  hover:text-black transition-all duration-500 ease cursor-pointer'>
                     <p className='xlg:text-[23px] xl:text-[20px] '> Our Services</p>
                     <FaArrowRight style={{ fontSize: "16px", width: "16px" }} />
 
 
 
 
-                </div>
+                </div> */}
 
             </div>
 

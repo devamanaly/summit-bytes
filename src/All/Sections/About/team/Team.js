@@ -8,22 +8,22 @@ const Team = () => {
 
             <div className='flex flex-row w-[84%] gap-x-4 flex-wrap gap-y-9  flex-wrap'>
 
-                <div className='w-[32%] h-[479px] '>
+                <div className='w-[32%] h-auto '>
                     <img src={Pic} alt="" style={{ width: "100%", height: "100%", borderRadius: "8px" }} />
                 </div>
-                <div className='w-[32%] h-[479px]  '>
+                <div className='w-[32%] h-auto  '>
                     <img src={Pic} alt="" style={{ width: "100%", height: "100%", borderRadius: "8px" }} />
                 </div>
-                <div className='w-[32%] h-[479px]  '>
+                <div className='w-[32%] h-auto  '>
                     <img src={Pic} alt="" style={{ width: "100%", height: "100%", borderRadius: "8px" }} />
                 </div>
-                <div className='w-[32%] h-[479px]  '>
+                <div className='w-[32%] h-auto  '>
                     <img src={Pic} alt="" style={{ width: "100%", height: "100%", borderRadius: "8px" }} />
                 </div>
-                <div className='w-[32%] h-[479px]  '>
+                <div className='w-[32%] h-auto  '>
                     <img src={Pic} alt="" style={{ width: "100%", height: "100%", borderRadius: "8px" }} />
                 </div>
-                <div className='w-[32%] h-[479px]  '>
+                <div className='w-[32%] h-auto  '>
                     <img src={Pic} alt="" style={{ width: "100%", height: "100%", borderRadius: "8px" }} />
                 </div>
 
