@@ -14,7 +14,7 @@ const Home = () => {
         <HomeOffer/>
         <Founder/>
         <Sucess/>
-        <Furthur/>
+        {/* <Furthur/> */}
     </div>
   )
 }

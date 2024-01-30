@@ -4,10 +4,10 @@ import 'react-vertical-timeline-component/style.min.css';
 import Data from './Data';
 import './style.css'
 const TimeLine = () => {
-    let iconStyle = { background: "#06D60A" };
+    let iconStyle = { background: "#FFFFF0" };
     return (
-        <div>
-            <h1>TimeLine</h1>
+        <div className='bg-[#E1F2FF] py-12'>
+            {/* <h1>TimeLine</h1> */}
             <VerticalTimeline>
                 {
                     Data.map((ele) => {

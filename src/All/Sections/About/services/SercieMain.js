@@ -3,13 +3,13 @@ import Item from './Item'
 
 const SercieMain = () => {
   return (
-    <div className='w-full min-h-[100vh]'>
+    <div className='w-full min-h-[100vh] flex flex-col justify-center gap-y-6'>
 
-        <div className='w-full h-[60vh] flex flex-col justify-center items-center gap-y-10 '>
+        <div className='w-full min-h-[60vh] flex flex-col justify-center items-center gap-y-10 '>
             <h2 className='text-[45px] font-bold'>
                 Web Development Service 
             </h2>
-            <div className='flex flex-row w-full min-h-30px justify-center gap-x-5 flex-wrap gap-y-11 '>
+            <div className='flex flex-row  w-full min-h-[30px] justify-center gap-x-5 flex-wrap gap-y-11 '>
                 <Item/>
                 <Item/>
                 <Item/>
@@ -19,7 +19,7 @@ const SercieMain = () => {
 
 
         </div>
-        <div className='w-full h-[60vh] flex flex-col justify-center items-center gap-y-10 '>
+        <div className='w-full min-h-[60vh] flex flex-col justify-center items-center gap-y-10 '>
             <h2 className='text-[45px] font-bold'>
                 Web Development Service 
             </h2>
@@ -34,7 +34,7 @@ const SercieMain = () => {
 
 
         </div>
-        <div className='w-full h-[60vh] flex flex-col justify-center items-center gap-y-10 '>
+        <div className='w-full min-h-[60vh] flex flex-col justify-center items-center gap-y-10 '>
             <h2 className='text-[45px] font-bold'>
                 Web Development Service 
             </h2>

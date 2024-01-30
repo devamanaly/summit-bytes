@@ -26,7 +26,7 @@ import HomeOffer from './All/Sections/home/We/HomeOffer'
 import Home from './All/Pages/Home/Home'
 import WhatWe from './All/Pages/WhatWE/WhatWe'
 import Hire from './All/Sections/offer/Hire/Hire'
-import Team from './All/Sections/offer/unLeasing/Team'
+import Team from './All/Sections/offer/Team/Team'
 // import Routes from './All/Pages/routes/MainRoutes'
 import MainRoutes from './All/Pages/routes/MainRoutes'
 // import Slider from './All/Components/slider/Slider'
@@ -40,6 +40,8 @@ import Bef from './Loader/Bef'
 import Slider from './All/Sections/home/sucess/Slide'
 import CustomCarousel from './All/Sections/home/sucess/Slide'
 import Slide from './All/Sections/home/sucess/Slide'
+import Responsive from './All/Sections/home/sucess/Responsive'
+import AboutHeros from './All/Components/Heros/AboutHeros/AboutHeros'
 // import Bef from './Loader/Bef'
 
 const Check = () => {
@@ -52,9 +54,10 @@ const Check = () => {
   {/* <Offer/> */}
   {/* <OurStory/> */}
   {/* <Personal/> */}
+  {/* <OurStory/> */}
   {/* <Team/> */}
   {/* <Foot/> */}
-
+{/* <AboutHeros/> */}
   {/* <Menu/> */}
   {/* <Item/> */}
   {/* <SercieMain/> */}
@@ -65,7 +68,10 @@ const Check = () => {
   {/* <Hire/> */}
   {/* <Team/> */}
   <MainRoutes/>
+  {/* <OfferHeros/> */}
   {/* <Slide/> */}
+  {/* <Responsive/> */}
+{/* <Foot/> */}
   {/* <CustomCarousel/> */}
   {/* <Team/> */}
   {/* <Bef/> */}
@@ -76,6 +82,7 @@ const Check = () => {
 {/* <SMain/> */}
   {/* <Form/> */}
   {/* <Slider/> */}
+  {/* <Furthur/> */}
   </>
   )
 }

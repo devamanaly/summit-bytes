@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom';
 
 const Foot = () => {
     return (
-        <div className='h-[388px] w-full bg-[#093F68] flex justify-center items-center gap-x-[144px] flex-wrap'>
-            <div className='h-[388px] min-w-20 bg-[#093F68] flex justify-center items-center gap-x-8'>
+        <div className='min-h-[388px] w-full bg-[#093F68] flex   justify-center items-center gap-x-[144px] flex-wrap py-14'>
+            <div className='min-h-[388px] min-w-20 bg-[#093F68]  flex flex-col md:flex-row justify-center items-start gap-x-8 flex-wrap gap-y-9 xl:py-0'>
 
 
                 <div className='w-[349px] min-h-52  flex flex-col justify-start items-start gap-y-8'>
@@ -18,26 +18,26 @@ const Foot = () => {
                         <div className='flex flex-row justify-start items-center gap-x-11'>
                             <FaPhoneAlt style={{color:"white",fontSize:"20px"}} />
 
-                            <p className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5]' >03443353402</p>
+                            <p className='xlg:text-[20px] xl:text-[18px] sm:text:[15px] text-[#B5B5B5]' >03443353402</p>
 
                         </div>
                         <div className='flex flex-row justify-start items-center gap-x-11'>
                             <MdMail style={{color:"white",fontSize:"20px"}} />
 
 
-                            <p className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5]' >summitbytes@gmail.com</p>
+                            <p className='xlg:text-[20px] xl:text-[18px] sm:text:[15px] text-[#B5B5B5]' >summitbytes@gmail.com</p>
 
                         </div>
                         <div className='flex flex-row justify-start items-center gap-x-11'>
                             <FaPhoneAlt style={{color:"white",fontSize:"20px"}} />
 
-                            <p className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5]' >03443353402</p>
+                            <p className='xlg:text-[20px] xl:text-[18px] sm:text:[15px] text-[#B5B5B5]' >03443353402</p>
 
                         </div>
                         <div className='flex flex-row justify-start items-center gap-x-11'>
                             <FaLocationDot style={{color:"white",fontSize:"20px"}} />
 
-                            <p className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5]' >132 Dartmouth Street Boston, Massachusetts 02156 United States</p>
+                            <p className='xlg:text-[20px] xl:text-[18px] sm:text:[15px] text-[#B5B5B5]' >132 Dartmouth Street Boston, Massachusetts 02156 United States</p>
 
                         </div>
 
@@ -52,13 +52,13 @@ const Foot = () => {
                     <h2 className='text-[24px] text-white font-bold '>Company</h2>
 
                     <div className='flex flex-col gap-y-5' >
-                        <Link to="/about" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5] hover:text-white  
+                        <Link to="/about" className='xlg:text-[20px] xl:text-[18px] sm:text:[15px]  text-[#B5B5B5] hover:text-white  
                         transition-all duration-500'>About</Link>
-                        <Link to="/whatwe" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5] hover:text-white  
+                        <Link to="/whatwe" className='xlg:text-[20px] xl:text-[18px] sm:text:[15px] text-[#B5B5B5] hover:text-white  
                         transition-all duration-500'>Services</Link>
-                        <Link to="/contact" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5] hover:text-white  
+                        <Link to="/contact" className='xlg:text-[20px] xl:text-[18px] sm:text:[15px] text-[#B5B5B5] hover:text-white  
                         transition-all duration-500'>Features</Link>
-                        <a href="#" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5] hover:text-white  
+                        <a href="#" className='xlg:text-[20px] xl:text-[18px] sm:text:[15px] text-[#B5B5B5] hover:text-white  
                         transition-all duration-500'>Blogs</a>
 
                     </div>
@@ -71,10 +71,10 @@ const Foot = () => {
                     <h2 className='text-[24px] text-white font-bold '>Legal</h2>
 
                     <div className='flex flex-col gap-y-5' >
-                        <a href="#" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5] hover:text-white transition-all duration-500'>Privacy policy</a>
-                        <a href="#" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5] hover:text-white transition-all duration-500'>Terms & Services</a>
-                        <a href="#" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5] hover:text-white transition-all duration-500'>Term of use</a>
-                        <a href="#" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5] hover:text-white transition-all duration-500'>Refund policy</a>
+                        <a href="#" className='xlg:text-[20px] xl:text-[18px] sm:text:[15px] text-[#B5B5B5] hover:text-white transition-all duration-500'>Privacy policy</a>
+                        <a href="#" className='xlg:text-[20px] xl:text-[18px] sm:text:[15px] text-[#B5B5B5] hover:text-white transition-all duration-500'>Terms & Services</a>
+                        <a href="#" className='xlg:text-[20px] xl:text-[18px] sm:text:[15px] text-[#B5B5B5] hover:text-white transition-all duration-500'>Term of use</a>
+                        <a href="#" className='xlg:text-[20px] xl:text-[18px] sm:text:[15px] text-[#B5B5B5] hover:text-white transition-all duration-500'>Refund policy</a>
 
                     </div>
 
@@ -85,10 +85,10 @@ const Foot = () => {
                     <h2 className='text-[24px] text-white font-bold '>Quick links</h2>
 
                     <div className='flex flex-col gap-y-5' >
-                        <a href="#" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5] hover:text-white transition-all duration-500'>Downloads</a>
-                        <a href="#" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5] hover:text-white transition-all duration-500'>Forum</a>
-                        <a href="#" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5] hover:text-white transition-all duration-500'>Techlabz Keybox</a>
-                        <a href="#" className='xlg:text-[20px] xl:text-[18px] text-[#B5B5B5] hover:text-white transition-all duration-500'>Blogs</a>
+                        <a href="#" className='xlg:text-[20px] xl:text-[18px] sm:text:[15px] text-[#B5B5B5] hover:text-white transition-all duration-500'>Downloads</a>
+                        <a href="#" className='xlg:text-[20px] xl:text-[18px] sm:text:[15px] text-[#B5B5B5] hover:text-white transition-all duration-500'>Forum</a>
+                        <a href="#" className='xlg:text-[20px] xl:text-[18px] sm:text:[15px] text-[#B5B5B5] hover:text-white transition-all duration-500'>Techlabz Keybox</a>
+                        <a href="#" className='xlg:text-[20px] xl:text-[18px] sm:text:[15px] text-[#B5B5B5] hover:text-white transition-all duration-500'>Blogs</a>
 
                     </div>
 
@@ -96,8 +96,8 @@ const Foot = () => {
 
                 </div>
             </div>
-            <div className='w-[349px] h-[249px] bg-[#0A0077] rounded-[20px] flex flex-col justify-center gap-y-14 xl:hidden xlg:flex' style={{ paddingLeft: "24px" }}>
-                <h4 className='xlg:text-[20px] xl:text-[18px] font-normal text-white '>Join Our Newsletter</h4>
+            <div className='w-[349px] h-[249px] bg-[#0A0077] rounded-[20px]  flex-col justify-center gap-y-14 hidden xlg:flex' style={{ paddingLeft: "24px" }}>
+                <h4 className='xlg:text-[20px] xl:text-[18px] sm:text:[15px] font-normal text-white '>Join Our Newsletter</h4>
 
 
                 <div className=' flex flex-col justify-start items-start gap-y-3 '>

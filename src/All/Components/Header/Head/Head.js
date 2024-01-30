@@ -50,7 +50,7 @@ const Head = ({ functions }) => {
 
       <div className=" w-[100vw ]  h-full flex flex-row justify-between  ">
 
-        <div className="head-logo h-[100%] flex w-[10vw] justify-end">
+        <div className="head-logo h-[100%] flex w-[100px] justify-end">
           <img src={Logo} onClick={() => navigate('/')} alt="" />
 
         </div>

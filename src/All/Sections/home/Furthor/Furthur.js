@@ -2,9 +2,9 @@ import React from 'react'
 import './style.css'
 const Furthur = () => {
   return (
-    <div className=' furthor w-full h-[508px]  flex flex-row justify-around items-center'>
+    <div className=' furthor w-full h-[508px]  flex flex-col md:flex-row justify-around items-center text-center'>
       <div className='min-w-[10vw] min-h-[8vh]'>
-        <h2 className=' xlg:text-[45px] xl:text-[40px] text-[#093F68] font-bold w-[569px] '>Call us for further information.
+        <h2 className=' xlg:text-[45px] xl:text-[40px] text-[33px] text-[#093F68] font-bold  sm:w-[450px] md:w-[500px] xl:w-[569px] '>Call us for further information.
           Summit Bytes customer
           care is here to help you anytime.</h2>
         <p className='text-[#8492A6] text-[20px] text-bold xl:text-[18px]' >We're available 24 hours!</p>
@@ -17,7 +17,7 @@ const Furthur = () => {
 
         </div>
 
-        <div className='xlg:w-[115px] xl:w-[106px] h-[45px]  rounded-[30px] bg-[#093F68] flex justify-center items-center '>
+        <div className='xlg:w-[115px] w-[115px] xl:w-[106px] h-[45px]  rounded-[30px] bg-[#093F68] flex justify-center items-center '>
           <p className='text-[17px] text-white '>Contact Us</p>
 
         </div>

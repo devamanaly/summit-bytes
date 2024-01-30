@@ -5,13 +5,13 @@ import SercieMain from '../../Sections/About/services/SercieMain'
 import Offer from '../../Sections/offer/Offer'
 import Hire from '../../Sections/offer/Hire/Hire'
 import TimeLine from '../../Components/TimeLine/TimeLine'
-import Team from '../../Sections/offer/unLeasing/Team'
+import Team from '../../Sections/offer/Team/Team'
 
 const WhatWe = () => {
   return (
     <div>
         <OfferHeros/>
-        <Offer/>
+        {/* <Offer/> */}
         <TimeLine/>
         {/* <Team/> */}
         <SercieMain/>

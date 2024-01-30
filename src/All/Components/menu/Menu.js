@@ -16,19 +16,19 @@ const Menu = (props) => {
 
     <div className='animates '>
 
-      <div className='menu w-[100vw] h-[100vh] flex flex-col justify-start items-center ' >
+      <div className='menu w-[100vw] h-[100vh] flex flex-col justify-start items-center  gap-y-[10vh]' >
         {/* meanu navbar */}
 
 
-        <div className='w-[100vw] h-[10vh] flex flex-row justify-between items-center  '>
-          <div className='w-[10vh] h-full  ' style={{ marginLeft: "7.75rem" }}>
+        <div className='w-[80vw] h-[10vh] flex flex-row justify-between items-center  '>
+          <div className='w-[10vh] h-full mx-[] ' >
             <img src={Logo} alt="" className='w-full h-full' />
 
 
           </div>
 
 
-          <div className='h-full flex justify-center items-center w-[10vh] ' style={{ marginRight: "5.75rem" }}>
+          <div className='h-full flex justify-center items-center w-[10vh] '>
             <IoMdClose style={{ color: "white", fontSize: "40px" }} onClick={shift} />
           </div>
 
@@ -36,11 +36,11 @@ const Menu = (props) => {
 
 
 
-        <div className=' w-[730px] h-[540px] flex flex-row justify-between'>
+        <div className=' w-[100vw] h-[540px] flex flex-row justify-between'>
 
 
           <div className='w-full h-full '>
-            <ul className='flex flex-col justify-end items-end'>
+            <ul className='flex flex-col xl:justify-end justify-center  items-center '>
               <li className='w-[20vw] h-full flex links'>
                 <a href="#" className='link-num'>01</a>
                 <div className='outPop'>

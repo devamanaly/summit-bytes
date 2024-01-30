@@ -2,7 +2,8 @@ import logo from "./logo.svg";
 import "./App.css";
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
 import 'aos/dist/aos.css';
-
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 import Check from "./Check.js";
 import { useEffect, useState } from "react";
 import Aos from "aos";

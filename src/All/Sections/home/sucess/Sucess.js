@@ -1,10 +1,12 @@
 import React from 'react'
 import { FaArrowRight } from "react-icons/fa";
 import Card from './Card';
+// import Slider from 'react-slick';
+import Slide from './Slide';
 
 const Sucess = () => {
     return (
-        <div className='min-h-[105vh] w-full bg-[#E1F2FF] py-14 flex justify-center items-center'>
+        <div className='min-h-[105vh] w-full bg-[#E1F2FF]   md:py-14 flex justify-center items-center overflow-hidden'>
             <div className='w-[90%] h-full flex flex-col justify-start items-start gap-y-6'>
 
 
@@ -26,7 +28,10 @@ const Sucess = () => {
 
 
                 <div >
+                    <Slide />
+
                     <Card />
+
                 </div>
 
 
