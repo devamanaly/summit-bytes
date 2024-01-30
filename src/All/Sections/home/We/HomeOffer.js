@@ -8,7 +8,7 @@ const HomeOffer = () => {
 console.log(text)
 
   return (
-    <div className='w-full min-h-[100vh] flex flex-col justify-center items-center gap-y-[50px] hidden md:flex '>
+    <div className='w-full min-h-[100vh] md:flex flex-col justify-center items-center gap-y-[50px] hidden  '>
       <div className='min-h-[10px] w-[50vw] flex flex-col justify-center items-center text-center gap-y-[24px]  '>
         {/* <p className='text-[#252222] xlg:text-[15px] xl:text-[12px]'>For Our Customer</p> */}
         <h2 className='xlg:text-[45px] xl:text-[42px] font-bold text-[#282727] tracking-[2px]'>What we offer</h2>
