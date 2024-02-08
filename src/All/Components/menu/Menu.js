@@ -2,7 +2,7 @@ import React from 'react'
 import './style.css'
 import { Link } from 'react-router-dom';
 import { IoMdClose } from "react-icons/io";
-import Logo from './techjourneyer_72218_a_minimalistic_logo_SummitByte__ad_hoc_colo_de4dd38a-c598-49d1-a655-a24948db3565-removebg-removebg-preview (1).png'
+import Logo from '../Header/Head/output-onlinepngtools (1) (1).svg'
 import { useNavigate } from 'react-router-dom';
 const Menu = (props) => {
   const navigate = useNavigate()
@@ -45,7 +45,7 @@ const Menu = (props) => {
                 <a href="#" className='link-num'>01</a>
                 <div className='outPop'>
 
-                <Link to="/" className='link-txt popUpWord' id='title-txt1' onClick={() => props.fun(false)}  >Home</Link>
+                  <Link to="/" className='link-txt popUpWord' id='title-txt1' onClick={() => props.fun(false)}  >Home</Link>
                 </div>
               </li>
 

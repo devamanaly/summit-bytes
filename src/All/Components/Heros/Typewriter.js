@@ -7,7 +7,7 @@
 //         // Same substring at the start will only be typed out once, initially
 //         'We produce food for Mice',
 //         1000, // wait 1s before replacing "Mice" with "Hamsters"
-     
+
 //       ]}
 //       wrapper="span"
 //       speed={50}
@@ -29,7 +29,7 @@ const Typewriter = ({ text, delay }) => {
         setCurrentText(prevText => prevText + text[currentIndex]);
         setCurrentIndex(prevIndex => prevIndex + 1);
       }, delay);
-  
+
       return () => clearTimeout(timeout);
     }
   }, [currentIndex, delay, text]);

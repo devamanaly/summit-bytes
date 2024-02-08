@@ -15,7 +15,8 @@ const UnLeasing = () => {
             </div>
 
 
-            <div className='xl:w-[70%]'>
+            <div className='xl:w-[70%] flex flex-wrap'>
+                
 
             </div>
         </div>

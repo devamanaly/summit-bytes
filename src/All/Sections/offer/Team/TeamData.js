@@ -1,4 +1,4 @@
-import Pic from './Premium Photo _ Happy asian boss manager business man wears black suit in relax pose_.png'
+import Pic from '../.././About/team/IMG_20230526_132753.jpg'
 
 
 const TeamData=[

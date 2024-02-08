@@ -1,5 +1,5 @@
 .menu {
-    background-image: url('./techjourneyer_72218_a_background_image_with_color_effects_of_re_f8105fbe-ca61-46d4-9645-b6b4164f157a\ 1.jpg');
+    background-image: url('../Heros//offerHeros/techjourneyer_72218_a_background_image_with_color_effects_of_re_f8105fbe-ca61-46d4-9645-b6b4164f157a\ 2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -112,8 +112,9 @@ Animation
     overflow: hidden;
 
 }
-.link-txt:hover{
-    color: white ;
+
+.link-txt:hover {
+    color: white;
     transition: all 0.5s ease;
 }
 
@@ -167,7 +168,7 @@ Animation
 
     /* width: 100vw; */
     /* height: 100vh; */
-    animation: slideIn .3s ease-in-out ;
+    animation: slideIn .3s ease-in-out;
     /* animation: slideOf 1s ease-in-out ; */
     /* animation: slidein 5s ease ; */
 }

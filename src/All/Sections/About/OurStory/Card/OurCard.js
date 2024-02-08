@@ -9,7 +9,7 @@ const OurCard = () => {
 
     setTimeout(() => {
         setTime(true)
-    }, 3000)
+    }, 1000)
 
     return (
         CardData.map((ele) => {

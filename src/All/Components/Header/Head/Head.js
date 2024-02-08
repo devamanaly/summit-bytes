@@ -1,5 +1,5 @@
 import React, { useState,useEffect } from "react";
-import Logo from './techjourneyer_72218_a_minimalistic_logo_SummitByte__ad_hoc_colo_de4dd38a-c598-49d1-a655-a24948db3565-removebg-removebg-preview (1).png'
+import Logo from './output-onlinepngtools (1) (1).svg'
 import { CiMenuBurger } from "react-icons/ci";
 import Menu from "../../menu/Menu";
 import { useNavigate } from "react-router-dom";

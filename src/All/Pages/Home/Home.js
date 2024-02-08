@@ -12,7 +12,7 @@ const Home = () => {
         <Heros/>
         <Combine/>
         <HomeOffer/>
-        <Founder/>
+        {/* <Founder/> */}
         <Sucess/>
         {/* <Furthur/> */}
     </div>
