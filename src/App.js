@@ -44,7 +44,8 @@ once:true,
     <div className="App">
 {
 
- load?<Check />:<Bef/>
+//  load?<Check />:<Bef/>
+<Check/>
 }
      {/* </SkeletonTheme > */}
     </div>
