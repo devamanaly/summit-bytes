@@ -3,12 +3,12 @@ import data from './Textdata'
 import Pic from './image-1.png.png'
 const SideCont = ({state}) => {
   const Arr=data.filter(e=>e.catogory==state)
-  console.log(Arr)
+  // console.log(Arr)
   return (
     <div className=' xl:w-[65%] xlg:w-[60%] h-[100%]  flex flex-row justify-between items-start gap-x-7 '>
 
         {
-          Arr.map((ele)=>{
+          Arr.map((ele,key)=>{
             return(
 
             

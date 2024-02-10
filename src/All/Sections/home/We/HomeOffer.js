@@ -5,7 +5,7 @@ import SideCont from './SideCont'
 const HomeOffer = () => {
 
   const [text ,setText]=useState("e-commerece")
-console.log(text)
+// console.log(text)
 
   return (
     <div className='w-full min-h-[100vh] md:flex flex-col justify-center items-center gap-y-[50px] hidden  '>

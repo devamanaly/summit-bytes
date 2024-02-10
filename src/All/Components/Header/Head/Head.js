@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Logo from './output-onlinepngtools (1) (1).svg'
 import { CiMenuBurger } from "react-icons/ci";
 import Menu from "../../menu/Menu";
@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 import './style.css'
 const Head = ({ functions }) => {
   const [scrolled, setScrolled] = useState(false);
+  const [hidenMenu, setHiddenMenu] = useState(false)
 
   const handleScroll = () => {
     const offset = window.scrollY;
@@ -30,40 +31,51 @@ const Head = ({ functions }) => {
 
 
 
-  
+
+  console.log(hidenMenu)
 
   const navigate = useNavigate()
   const Hidden = () => {
-    functions(true)
-    navigate('./hiddenmenu')
+    setHiddenMenu(true)
+    // navigate('./hiddenmenu')
   }
 
   return (
+    <div className={`fixed ${hidenMenu?'z-50':'' }`} >
 
 
 
-    <nav className={`fixed w-[100vw] h-[10vh] ${scrolled ? 'scrolled' : ''} `} >
+        <nav className={`fixed w-[100vw] h-[10vh] ${scrolled ? 'scrolled' : ''}  ${hidenMenu?'z-20':'z-30'}`} >
 
 
 
 
 
-      <div className=" w-[100vw ]  h-full flex flex-row justify-between  ">
+          <div className=" w-[100vw ]  h-full flex flex-row justify-between  ">
 
-        <div className="head-logo h-[100%] flex w-[100px] justify-end">
-          <img src={Logo} onClick={() => navigate('/')} alt="" />
+            <div className="head-logo h-[100%] flex w-[100px] justify-end">
+              <img src={Logo} onClick={() => navigate('/')} alt="" />
 
-        </div>
+            </div>
 
-        <div className=" meanu-btn w-[10vw] flex justify-center items-center  ">
-          <CiMenuBurger style={{ width: "34px", height: "34px", color:scrolled?"black":"white"      
-          }} onClick={Hidden} />
-        </div>
+            <div className=" meanu-btn w-[10vw] flex justify-center items-center  ">
+              <CiMenuBurger style={{
+                width: "34px", height: "34px", color: scrolled ? "black" : "white"
+              }} onClick={Hidden} />
+            </div>
+
+          </div>
+
+        </nav>
+        <div className="w-[100vw] h-[100vh] fixed z-20  ">
+
+        {
+
+          hidenMenu ? <Menu funx={setHiddenMenu} stat={hidenMenu} /> : ""
+        }
 
       </div>
-
-    </nav>
-
+    </div>
 
   )
 };

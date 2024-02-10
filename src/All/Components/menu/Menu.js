@@ -3,18 +3,18 @@ import './style.css'
 import { Link } from 'react-router-dom';
 import { IoMdClose } from "react-icons/io";
 import Logo from '../Header/Head/output-onlinepngtools (1) (1).svg'
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 const Menu = (props) => {
-  const navigate = useNavigate()
-  const shift = () => {
-    props.fun(false)
-    navigate('/')
 
+
+  const funtion=()=>{
+    console.log('oa,')
+    props.funx(false)
   }
-
+  // ]
   return (
 
-    <div className='animates '>
+    <div className='animates  '>
 
       <div className='menu w-[100vw] h-[100vh] flex flex-col justify-start items-center  gap-y-[10vh]' >
         {/* meanu navbar */}
@@ -28,8 +28,8 @@ const Menu = (props) => {
           </div>
 
 
-          <div className='h-full flex justify-center items-center w-[10vh] '>
-            <IoMdClose style={{ color: "white", fontSize: "40px" }} onClick={shift} />
+          <div className='h-full flex justify-center items-center w-[10vh]  ' >
+            <IoMdClose style={{ color: "white", fontSize: "40px", cursor: "pointer" }} onClick={funtion} />
           </div>
 
         </div>

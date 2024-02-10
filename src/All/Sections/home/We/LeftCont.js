@@ -7,7 +7,7 @@ import Pic4 from "./Frame (4).png"
 const LeftCont = (props) => {
     const func=props.func;
     const state=props.state
-    console.log("i am i left"+state)
+    // console.log("i am i left"+state)
     
 
 

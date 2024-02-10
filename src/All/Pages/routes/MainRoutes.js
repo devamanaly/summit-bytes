@@ -14,7 +14,7 @@ const MainRoutes = () => {
 
   // const [Menuu, setMenu] = useState(false);
   const [hiddenMenuu, setHiddenMenu] = useState(false);
-  console.log(hiddenMenuu)
+
 
 
 
@@ -24,7 +24,7 @@ const MainRoutes = () => {
       <BrowserRouter>
         {
 
-          hiddenMenuu == false ? <Head functions={setHiddenMenu} /> : null
+          hiddenMenuu == false ? <Head  /> : null
 
         }
 
@@ -33,7 +33,7 @@ const MainRoutes = () => {
 
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
-          <Route path='/hiddenmenu' element={<Menu fun={setHiddenMenu} stat={hiddenMenuu} />} />/
+          {/* <Route path='/hiddenmenu' element={<Menu fun={setHiddenMenu} stat={hiddenMenuu} />} /> */}
           <Route path='/whatwe' element={<WhatWe />} />
           <Route path='/contact' element={ <Form/> } />
 
