@@ -13,7 +13,7 @@ const Furthur = () => {
       <div className='min-w-[10vw] min-h-[8vh] flex flex-col justify-around items-center gap-y-[5px] '>
         <div className='flex flex-col justify-center items-center gap-y-[5px]'>
           <p className=' uppercase text-[#8492A6] text-[12px] tracking-[5px]'>Call Us Now</p>
-          <p className=' xlg:text-[40px] xl:text-[36px] text-[#35404E] font-bold tracking-[3px]'>+92 3401048515</p>
+          <p className=' xlg:text-[40px] xl:text-[36px] md:text-[30px] text-[25px] text-[#35404E] font-bold tracking-[3px]'>+92 3401048515</p>
 
         </div>
 

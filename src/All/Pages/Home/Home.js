@@ -9,12 +9,12 @@ import Furthur from '../../Sections/home/Furthor/Furthur'
 const Home = () => {
   return (
     <div>
-        <Heros/>
-        <Combine/>
-        <HomeOffer/>
-        {/* <Founder/> */}
-        <Sucess/>
-        {/* <Furthur/> */}
+      <Heros />
+      <Combine />
+      <HomeOffer />
+      {/* <Founder/> */}
+      <Sucess />
+      <Furthur />
     </div>
   )
 }

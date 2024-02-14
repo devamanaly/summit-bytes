@@ -7,6 +7,7 @@ import './style.css'
 const Head = ({ functions }) => {
   const [scrolled, setScrolled] = useState(false);
   const [hidenMenu, setHiddenMenu] = useState(false)
+  // const [out ,setOut]=useState(false)
 
   const handleScroll = () => {
     const offset = window.scrollY;
@@ -37,21 +38,24 @@ const Head = ({ functions }) => {
   const navigate = useNavigate()
   const Hidden = () => {
     setHiddenMenu(true)
+    // setOut(true)
     // navigate('./hiddenmenu')
+    // console.log('i am true')
   }
 
   return (
-    <div className={`fixed ${hidenMenu?'z-50':'' }`} >
+    <div className={` ${hidenMenu ? 'z-50' : ''}`} >
 
 
 
-        <nav className={`fixed w-[100vw] h-[10vh] ${scrolled ? 'scrolled' : ''}  ${hidenMenu?'z-20':'z-30'}`} >
+      <nav className={`fixed w-[100vw] h-[10vh] flex justify-center ${scrolled ? 'scrolled' : ''}  ${hidenMenu ? 'z-20' : 'z-30'}`} >
 
 
 
 
 
-          <div className=" w-[100vw ]  h-full flex flex-row justify-between  ">
+        <div className=" w-[83%]  h-full   ">
+          <div className="flex flex-row justify-between w-">
 
             <div className="head-logo h-[100%] flex w-[100px] justify-end">
               <img src={Logo} onClick={() => navigate('/')} alt="" />
@@ -60,18 +64,19 @@ const Head = ({ functions }) => {
 
             <div className=" meanu-btn w-[10vw] flex justify-center items-center  ">
               <CiMenuBurger style={{
-                width: "34px", height: "34px", color: scrolled ? "black" : "white"
+                width: "34px", height: "34px", color: "white"
               }} onClick={Hidden} />
             </div>
 
           </div>
+        </div>
 
-        </nav>
-        <div className="w-[100vw] h-[100vh] fixed z-20  ">
+      </nav>
+      <div className={`w-[100vw] h-[100vh] fixed ${hidenMenu ? 'z-20' : 'z-0'} ${hidenMenu === false ? 'hidden' : ''}  `}>
 
         {
 
-          hidenMenu ? <Menu funx={setHiddenMenu} stat={hidenMenu} /> : ""
+          hidenMenu ? <Menu funx={setHiddenMenu} stat={hidenMenu}  /> : ""
         }
 
       </div>

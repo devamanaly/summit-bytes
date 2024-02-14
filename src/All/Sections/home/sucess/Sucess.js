@@ -11,8 +11,8 @@ const Sucess = () => {
 
 
                 <div className='min-h-[50px] flex flex-col justify-between items-start '>
-                    <h1 className='xlg:text-[35px] xl:text-[32px] font-semibold'>Few Success stories </h1>
-                    <p className='xlg:text-[22px] xl:text-[18px]'>Insights, events, and announcements from our team</p>
+                    <h1 className='xlg:text-[35px] xl:text-[32px] md:text-[30px] sm:text-[25px] font-semibold'>Few Success stories </h1>
+                    <p className='xlg:text-[22px] xl:text-[18px] text-[15px] '>Insights, events, and announcements from our team</p>
 
                 </div>
 
@@ -27,7 +27,7 @@ const Sucess = () => {
 
 
 
-                <div >
+                <div className='w-[100%]' >
                     <Slide />
 
                     <Card />

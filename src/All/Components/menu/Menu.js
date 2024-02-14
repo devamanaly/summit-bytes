@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './style.css'
 import { Link } from 'react-router-dom';
 import { IoMdClose } from "react-icons/io";
@@ -6,15 +6,33 @@ import Logo from '../Header/Head/output-onlinepngtools (1) (1).svg'
 // import { useNavigate } from 'react-router-dom';
 const Menu = (props) => {
 
+  const [hover, setHover] = useState(false)
+  const change = () => {
+    setHover(true)
+    // console.log('in')
 
-  const funtion=()=>{
-    console.log('oa,')
+  }
+  const chang = () => {
+    setHover(false)
+    // console.log('out')
+
+  }
+  const funtion = () => {
+    // console.log('oa,')
     props.funx(false)
+    // props.outFunx(false)
+    // console.log('i am false')
+    // setInterval(() => {
+
+
+
+    //   props.funx(false)
+    // }, 1000)
   }
   // ]
   return (
 
-    <div className='animates  '>
+    <div className={`${props.out ? 'animates' : 'animateOut'}`}>
 
       <div className='menu w-[100vw] h-[100vh] flex flex-col justify-start items-center  gap-y-[10vh]' >
         {/* meanu navbar */}
@@ -36,32 +54,32 @@ const Menu = (props) => {
 
 
 
-        <div className=' w-[100vw] h-[540px] flex flex-row justify-between'>
+        <div className=' w-[100vw] h-[540px] flex flex-row justify-between '>
 
 
-          <div className='w-full h-full '>
-            <ul className='flex flex-col xl:justify-end justify-center  items-center '>
-              <li className='w-[20vw] h-full flex links'>
-                <a href="#" className='link-num'>01</a>
+          <div className='w-full h-full flex justify-center items-center '>
+            <ul className={`flex flex-col xl:justify-end justify-center  items-center  w-[20%]  ${hover ? "hovr" : " link-cont "} `} onMouseEnter={change} onMouseLeave={chang} >
+              <li className=' h-full flex links'>
+
                 <div className='outPop'>
 
                   <Link to="/" className='link-txt popUpWord' id='title-txt1' onClick={() => props.fun(false)}  >Home</Link>
                 </div>
               </li>
 
-              <li className='w-[20vw] h-full flex links'>
-                <a href="#" className='link-num'>02</a>
+              <li className=' h-full flex links'>
+
                 <Link to="/about" className='link-txt' id='title-txt2' onClick={() => props.fun(false)} >About</Link>
               </li>
 
-              <li className='w-[20vw] h-full flex links'>
-                <a href="#" className='link-num'>02</a>
-                <Link to='/whatwe' className='link-txt' id='title-txt3' onClick={() => props.fun(false)} >Services</Link>
+              <li className=' h-full flex links'>
+
+                <Link to='/whatwe' className='link-txt ' id='title-txt3' onClick={() => props.fun(false)} >Services</Link>
               </li>
 
 
-              <li className='w-[20vw] h-full flex links'>
-                <a href="#" className='link-num'>02</a>
+              <li className=' h-full flex links'>
+
                 <Link to='/contact' className='link-txt' id='title-txt4' onClick={() => props.fun(false)} >Contact</Link>
               </li>
             </ul>

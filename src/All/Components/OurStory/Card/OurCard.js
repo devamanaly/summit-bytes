@@ -28,7 +28,7 @@ const OurCard = () => {
                             </h2>
                         }
                     </div>
-                    <div className='w-[96%] xl:h-[350px] md:h-[300px] h-auto sm:h-auto'  >
+                    <div className='w-[96%] xlg:h-[400px] xl:h-[300px] md:h-[280px] h-auto sm:h-auto'  >
 
                         {
 
